@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    color: #777;
+    padding: 3rem;
+    background: cadetblue;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 35rem;
+    height: 55rem;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+
+.output_box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border: 2px solid cornflowerblue;
+    border-radius: 13px 13px 0px 0px;
+    border-right: 2px solid palevioletred;
+    border-left: 2px solid palevioletred;
+    width: 100%;
+    justify-content: space-between;
+    padding:0px 20px;
+    background:white;
+    color:black;
+    font-size:19px;
+}
+
+.main_output {
+    display: flex;
+    border: 1px solid blue;
+    height: 6rem;
+    justify-content: center;
+    align-items:center;
+    /* background:blue; */
+  /* border:1px solid tomato; */
+    width:100%;
+    /* background:blue; */
+    text-align:end;
+    overflow: hidden;
+}
+
+
+   
+
+
+
+.sub_output {
+    display: flex;
+    border: 1px solid salmon;
+    height: 7rem;
+    /* background:red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background:tomato; */
+}
+
+.opeartor_box{
+    display:flex;
+    /* flex-direction: column; */
+    flex-wrap:wrap;
+    width:100%;
+    /* border:5px solid purple; */
+    flex-basis:70%;
+}
+
+.btn{
+    width:25%;
+    height:20%;
+    background:#1E2326;
+    border: 1px solid black;
+    color:white;
+    font-size:27px;
+    font-weight:100;
+    cursor: pointer;
+}
+
+.btn:active{
+    background:blue;
+    border:1px solid black;
+}
+.btn:hover{
+    opacity:0.8;
+}
+.op {
+    background:cornflowerblue;
+}
+
+.sum{
+    background:goldenrod;
+    color:black;
+}
